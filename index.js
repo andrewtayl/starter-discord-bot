@@ -13,7 +13,7 @@ const { InteractionType, InteractionResponseType, verifyKeyMiddleware } = requir
 
 
 const app = express();
-// app.use(bodyParser.json());
+/// app.use(bodyParser.json());
 
 const discord_api = axios.create({
   baseURL: 'https://discord.com/api/',
